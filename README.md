@@ -5,7 +5,11 @@ The Fresh Crypto Lib is a set of functions for blockchain systems such as Wallet
 *** __15/05/24 : Deprecated__
 
 *** __This library is an experimental prequel of SCL. SCL proposes more generic implementation with RIP7696 for lesser cost (beating record set by FCL) and is currently under audit.
-https://github.com/get-smooth/crypto-lib__
+https://github.com/get-smooth/crypto-lib__.
+
+*** __new (27/05/24): SCL now supports both Ed25519 and P256 using RIP7696__.
+
+*** __new (06/08/24): SCL first audit completed, second VERIDISE audit being reviewed__ (FCL has no audit).
 
 *** We warmly thanks all contributors of FCL, they will be added as contributor to SCL.
 
@@ -81,6 +85,7 @@ The following repos have been used in benchmarks:
 
 * Academic paper: https://eprint.iacr.org/2023/939 for EthCC2023
 * Alembic : https://github.com/alembic-tech/p256-signer/blob/main/contracts/FCL/FCL_elliptic.sol
+* Base Smart Wallet: fast onboarding using FCL: https://www.smart-wallet.xyz/, deployed at 0x0BA5ED0c6AA8c49038F819E587E2633c4A9F428a (Base main and Sepolia)
 * Braavos https://github.com/myBraavos/efficient-secp256r1/blob/develop/src/secp256r1/ec_mulmuladd.cairo
 * Cartridge https://github.com/cartridge-gg/cairo-secp256r1/pull/3
 * EIP665 PR#7515 :https://github.com/ethereum/EIPs/pull/7515
@@ -88,6 +93,7 @@ The following repos have been used in benchmarks:
 * Forum DAO,  :https://github.com/forumdaos/forum-contracts/tree/main/src/libraries
 * Daimo, ethereum payments : https://github.com/daimo-eth/p256-verifier/blob/master/src/P256Verifier.sol
 * Safe : https://github.com/safe-global/safe-modules/tree/master/4337/contracts/test/FCL
+* SoulWallet : https://github.com/SoulWallet/soul-wallet-contract/blob/a0146910dfbc46afeba809b26f256129d37e3301/contracts/libraries/WebAuthn.sol#L69
 * Wallet Abstraction, EthGlobal NY hackathon finalist : https://github.com/qd-qd/wallet-abstraction
 * Wax : Wallet Account Experiments, PSE team (EF funded) https://github.com/getwax/wax/commit/fd246685f67ebb56f5ebb82cb48df56088e28c7b  
 
